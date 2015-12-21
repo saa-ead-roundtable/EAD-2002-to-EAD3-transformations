@@ -81,15 +81,26 @@
         </persname>
       </origination>
       <repository>
-        <corpname>The New York Public Library. Manuscripts and Archives Division.</corpname>
+        <corpname>
+          <part>The New York Public Library.</part> 
+          <part>Manuscripts and Archives Division.</part>
+        </corpname>
         <address>
           <addressline>Stephen A. Schwarzman Building</addressline>
           <addressline>Fifth Avenue at 42nd Street, New York, NY 10018-2788</addressline>
         </address>
       </repository>
+      <physdescset parallel="true" coverage="part">
+        <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+          <quantity>8.3</quantity>
+          <unittype>linear feet</unittype>
+        </physdescstructured>
+        <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+          <quantity>21</quantity>
+          <unittype>boxes</unittype>
+        </physdescstructured>
+      </physdescset>
       <physdesc>
-        <extent unit="linear feet">8.3 linear feet</extent>
-        <extent unit="containers">21 boxes</extent>
         <extent>679 kb (11 computer files)</extent>
         <extent>19 audio files</extent>
       </physdesc>
