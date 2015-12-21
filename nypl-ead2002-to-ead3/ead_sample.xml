@@ -71,12 +71,14 @@
           <todate standarddate="1992">1992</todate>
         </daterange>
       </unitdatestructured>
-      
-      <unitid type="local_mss">3621</unitid>
-      <unitid type="local_b">b17032772</unitid>
-      <unitid type="local_call">MssCol 3621</unitid>
+      <unitid localtype="local_mss">3621</unitid>
+      <unitid localtype="local_b">b17032772</unitid>
+      <unitid localtype="local_call">MssCol 3621</unitid>
       <origination>
-        <persname role="creator" source="naf">Allworth, Edward.</persname>
+        <persname identifier="http://viaf.org/viaf/4966567/" relator="http://id.loc.gov/vocabulary/relators/cre" source="naf">
+          <part>Allworth</part>
+          <part>Edward</part>
+        </persname>
       </origination>
       <repository>
         <corpname>The New York Public Library. Manuscripts and Archives Division.</corpname>
