@@ -59,8 +59,19 @@
   <archdesc level="collection">
     <did>
       <unittitle>Edward Allworth papers</unittitle>
-      <unitdate type="inclusive" normal="1944/2000">1944-2000</unitdate>
-      <unitdate type="bulk" normal="1944/2000">1969-1992</unitdate>
+      <unitdatestructured unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1944">1944</fromdate>
+          <todate standarddate="2000">2000</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdatestructured unitdatetype="bulk">
+        <daterange>
+          <fromdate standarddate="1969">1969</fromdate>
+          <todate standarddate="1992">1992</todate>
+        </daterange>
+      </unitdatestructured>
+      
       <unitid type="local_mss">3621</unitid>
       <unitid type="local_b">b17032772</unitid>
       <unitid type="local_call">MssCol 3621</unitid>
