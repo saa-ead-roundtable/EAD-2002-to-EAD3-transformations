@@ -100,10 +100,20 @@
           <unittype>boxes</unittype>
         </physdescstructured>
       </physdescset>
-      <physdesc>
-        <extent>679 kb (11 computer files)</extent>
-        <extent>19 audio files</extent>
-      </physdesc>
+      <physdescset parallel="true" coverage="part">
+        <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+          <quantity>679</quantity>
+          <unittype>kilobytes</unittype>
+        </physdescstructured>
+        <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+          <quantity>11</quantity>
+          <unittype>computer files</unittype>
+        </physdescstructured>
+      </physdescset>
+      <physdescstructured coverage="part" physdescstructuredtype="carrier">
+        <quantity>19</quantity>
+        <unittype>audio files</unittype>
+      </physdescstructured>
       <abstract>Edward A. Allworth is professor emeritus of Turco-Soviet Studies in the Middle Eastern and Asian Languages and Cultures Department of Columbia University. He began his career at Columbia in 1961, dedicating his writings and teaching to the study of ethnic minority populations in Soviet Central Asia. Professor Allworth's papers include research documents focusing on Crimean Tatars, Uzbeks, Tajiks and Bukharan Jews, and the Soviet war in Afghanistan. Materials consist of correspondence, manuscripts, research files and statistical analysis, photographs, oral history recordings and biographical scrapbooks, printed matter and a small amount of personal miscellany.</abstract>
     </did>
     <bioghist>
