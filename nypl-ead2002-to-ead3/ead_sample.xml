@@ -59,27 +59,61 @@
   <archdesc level="collection">
     <did>
       <unittitle>Edward Allworth papers</unittitle>
-      <unitdate type="inclusive" normal="1944/2000">1944-2000</unitdate>
-      <unitdate type="bulk" normal="1944/2000">1969-1992</unitdate>
-      <unitid type="local_mss">3621</unitid>
-      <unitid type="local_b">b17032772</unitid>
-      <unitid type="local_call">MssCol 3621</unitid>
+      <unitdatestructured unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1944">1944</fromdate>
+          <todate standarddate="2000">2000</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdatestructured unitdatetype="bulk">
+        <daterange>
+          <fromdate standarddate="1969">1969</fromdate>
+          <todate standarddate="1992">1992</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitid localtype="local_mss">3621</unitid>
+      <unitid localtype="local_b">b17032772</unitid>
+      <unitid localtype="local_call">MssCol 3621</unitid>
       <origination>
-        <persname role="creator" source="naf">Allworth, Edward.</persname>
+        <persname identifier="http://viaf.org/viaf/4966567/" relator="http://id.loc.gov/vocabulary/relators/cre" source="naf">
+          <part>Allworth</part>
+          <part>Edward</part>
+        </persname>
       </origination>
       <repository>
-        <corpname>The New York Public Library. Manuscripts and Archives Division.</corpname>
+        <corpname>
+          <part>The New York Public Library.</part> 
+          <part>Manuscripts and Archives Division.</part>
+        </corpname>
         <address>
           <addressline>Stephen A. Schwarzman Building</addressline>
           <addressline>Fifth Avenue at 42nd Street, New York, NY 10018-2788</addressline>
         </address>
       </repository>
-      <physdesc>
-        <extent unit="linear feet">8.3 linear feet</extent>
-        <extent unit="containers">21 boxes</extent>
-        <extent>679 kb (11 computer files)</extent>
-        <extent>19 audio files</extent>
-      </physdesc>
+      <physdescset parallel="true" coverage="part">
+        <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+          <quantity>8.3</quantity>
+          <unittype>linear feet</unittype>
+        </physdescstructured>
+        <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+          <quantity>21</quantity>
+          <unittype>boxes</unittype>
+        </physdescstructured>
+      </physdescset>
+      <physdescset parallel="true" coverage="part">
+        <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+          <quantity>679</quantity>
+          <unittype>kilobytes</unittype>
+        </physdescstructured>
+        <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+          <quantity>11</quantity>
+          <unittype>computer files</unittype>
+        </physdescstructured>
+      </physdescset>
+      <physdescstructured coverage="part" physdescstructuredtype="carrier">
+        <quantity>19</quantity>
+        <unittype>audio files</unittype>
+      </physdescstructured>
       <abstract>Edward A. Allworth is professor emeritus of Turco-Soviet Studies in the Middle Eastern and Asian Languages and Cultures Department of Columbia University. He began his career at Columbia in 1961, dedicating his writings and teaching to the study of ethnic minority populations in Soviet Central Asia. Professor Allworth's papers include research documents focusing on Crimean Tatars, Uzbeks, Tajiks and Bukharan Jews, and the Soviet war in Afghanistan. Materials consist of correspondence, manuscripts, research files and statistical analysis, photographs, oral history recordings and biographical scrapbooks, printed matter and a small amount of personal miscellany.</abstract>
     </did>
     <bioghist>
