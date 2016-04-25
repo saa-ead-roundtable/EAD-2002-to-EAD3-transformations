@@ -82,7 +82,7 @@
       </origination>
       <repository>
         <corpname>
-          <part>The New York Public Library.</part> 
+          <part>The New York Public Library.</part>
           <part>Manuscripts and Archives Division.</part>
         </corpname>
         <address>
@@ -118,7 +118,7 @@
     </did>
     <bioghist>
       <p>Edward Alfred Allworth, professor emeritus of Turco-Soviet Studies in the Middle Eastern and Asian Languages and Cultures Department at Columbia University, is a specialist on ethnic minority populations in former Soviet Central Asia. He was born December 1, 1920, the son of Edward and Ethel (Walker) Allworth. He received his bachelor's degree from Oregon State University, followed by a master's from the University of Chicago, and a Ph.D. from Columbia University. After working at both Reed College and the Ford Foundation, Professor Allworth returned to Columbia, where he would spend the majority of his professional career focusing on Central Asia.</p>
-      <p>Allworth was director of the Program on Soviet Nationality Problems beginning in 1970, head of the Center for the Study of Central Asia, and general editor of the Central Asia Book Series beginning in 1983. Among his numerous works as an author and editor were: <title>Central Asian Publishing and the Rise of Nationalism</title>; <title>The Modern Uzbeks: from the fourteenth century to the present</title>; <title>Uzbek Literary Politics</title>; <title>The Nationality Question in Soviet Central Asia</title>; and <title>Nationality Group Survival in Multiethnic States</title>.</p>
+      <p>Allworth was director of the Program on Soviet Nationality Problems beginning in 1970, head of the Center for the Study of Central Asia, and general editor of the Central Asia Book Series beginning in 1983. Among his numerous works as an author and editor were: <title><part>Central Asian Publishing and the Rise of Nationalism</part></title>; <title><part>The Modern Uzbeks: from the fourteenth century to the present</part></title>; <title><part>Uzbek Literary Politics</part></title>; <title><part>The Nationality Question in Soviet Central Asia</part></title>; and <title><part>Nationality Group Survival in Multiethnic States</part></title>.</p>
     </bioghist>
     <custodhist>
       <p>This collection was transferred from the Asian and Middle Eastern Division of The New York Public Library in 2001.</p>
@@ -130,7 +130,7 @@
       <p>Items related to Crimean Tatars focus on their experiences of deportation to Central Asia in 1944, activist movements beginning in the 1960s, and their push for the right of return to the Crimea in the 1980s. A significant amount of material was received from activist and author Reshat Djemilev, including an extensive oral history, in Russian.</p>
       <p>The Uzbek materials consist of the "Uzbek Intelligentsia Project," which looked at the integration of ethnic Uzbeks into the Uzbek Soviet and larger USSR Supreme Soviet. These materials consist of selected research files compiled on members of both Soviets, and statistical printouts analyzing Allworth's collected data. There are also files related to Allworth's translation work of Abdalfauf Fitrat.</p>
       <p>The Tajik section of documents, the smallest in the collection, consists of writings by Mordekhay Bachaev; interviews in Hebrew of members of the small ethnic and religious minority of Bukharan Jews; newspaper clippings on the resurgence of a Muslim identity in Dushanbe following the fall of the Soviet Union; and other printed matter.</p>
-      <p>In Arabic, Crimean Tatar, English, French, German, Hebrew, Polish, Pushto, Russian, Tajik and Uzbek. Although much of the collection consists of materials using the Latin alphabet, many texts are present with the Arabic and Cyrillic alphabet. There is also one example of a Tajik language document represented in both Cyrillic and Hebrew (<title>Ghazaliet</title> in box 7).</p>
+      <p>In Arabic, Crimean Tatar, English, French, German, Hebrew, Polish, Pushto, Russian, Tajik and Uzbek. Although much of the collection consists of materials using the Latin alphabet, many texts are present with the Arabic and Cyrillic alphabet. There is also one example of a Tajik language document represented in both Cyrillic and Hebrew (<title><part>Ghazaliet</part></title> in box 7).</p>
     </scopecontent>
     <prefercite>
       <p>Edward Allworth papers, Manuscripts and Archives Division, The New York Public Library</p>
@@ -138,31 +138,82 @@
     <acqinfo>
       <p>Donated by Edward Allworth, 1994.</p>
     </acqinfo>
-    <processinfo type="processing">
+    <processinfo>
       <p>Audiocassettes were digitized and 256kbps MP3 service files were created as well as master Broadcast WAV files at 96/24 for preservation purposes. Electronic records were forensically imaged for preservation.</p>
-      <p>The collection was processed by <name>Laura Ruttum</name> in June <date>2008</date>. Additional materials were received and processed by <name>Heather Lember</name> in <date>2015</date>. New files are in boxes 16-21. New digital files were added to Series IV.</p>
+      <p>The collection was processed by <name><part>Laura Ruttum</part></name> in June <date>2008</date>. Additional materials were received and processed by <name><part>Heather Lember</part></name> in <date>2015</date>. New files are in boxes 16-21. New digital files were added to Series IV.</p>
     </processinfo>
     <controlaccess>
-      <persname role="creator" source="naf">Aimaq, Faizullah</persname>
-      <persname role="creator" source="naf">Dzhemilev, Reshat</persname>
-      <persname role="creator" source="naf">Eckmann, János</persname>
-      <persname role="creator" source="naf">Fitrat, 1886-1938</persname>
-      <persname role="creator">Muḣib, 1911-</persname>
-      <subject source="lcsh">Crimean Tatars -- Civil rights -- Soviet Union</subject>
-      <subject source="lcsh">Jews, Bukharan</subject>
-      <subject source="lcsh">Minorities -- Soviet Union</subject>
-      <subject source="lcsh">Nationalism -- Asia, Central</subject>
-      <subject source="lcsh">Tajiks</subject>
-      <subject source="lcsh">Uzbeks</subject>
-      <genreform source="aat">interviews</genreform>
-      <genreform source="aat">memoirs</genreform>
-      <genreform source="aat">photographs</genreform>
-      <genreform source="gmgpc">Scrapbooks</genreform>
-      <genreform source="aat">sound recordings</genreform>
-      <geogname source="naf">Afghanistan -- History -- Soviet occupation, 1979-1989</geogname>
-      <geogname source="naf">Soviet Union -- Ethnic relations</geogname>
-      <geogname source="naf">Uzbekistan</geogname>
-      <occupation source="lcsh">College teachers -- United States</occupation>
+      <persname relator="creator" source="naf">
+        <part>Aimaq</part>
+        <part>Faizullah</part>
+      </persname>
+      <persname relator="creator" source="naf" identifier="http://viaf.org/viaf/248897107/">
+        <part>Dzhemilev</part>
+        <part>Reshat</part>
+      </persname>
+      <persname relator="creator" source="naf" identifier="http://viaf.org/viaf/91915684/">
+        <part>Eckmann</part>
+        <part>János</part>
+      </persname>
+      <persname relator="creator" source="naf" identifier="http://viaf.org/viaf/22366376/">
+        <part>Fitrat</part>
+        <part>1886-1938</part>
+      </persname>
+      <persname relator="creator" identifier="http://viaf.org/viaf/98072889">
+        <part>Muḣib</part>
+        <part>1911-</part>
+      </persname>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh87003883">Crimean Tatars</part>
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh99004998">Civil rights</part>
+        <part source="naf" identifier="http://id.loc.gov/authorities/names/n80126312">Soviet Union</part>
+      </subject>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh93001251">Jews, Bukharan</part>
+      </subject>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85085792">Minorities</part>
+        <part source="naf" identifier="http://id.loc.gov/authorities/names/n80126312">Soviet Union</part>
+      </subject>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85090150">Nationalism</part>
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85008625">Asia, Central</part>
+      </subject>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85132030">Tajiks</part>
+      </subject>
+      <subject source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85141677">Uzbeks</part>
+      </subject>
+      <genreform source="aat" identifier="http://vocab.getty.edu/aat/300026392">
+        <part>interviews</part>
+      </genreform>
+      <genreform source="aat" identifier="http://vocab.getty.edu/aat/300202559">
+        <part>memoirs</part>
+      </genreform>
+      <genreform source="aat" identifier="http://vocab.getty.edu/aat/300046300">
+        <part>photographs</part>
+      </genreform>
+      <genreform source="gmgpc" identifier="http://id.loc.gov/vocabulary/graphicMaterials/tgm009266">
+        <part>Scrapbooks</part>
+      </genreform>
+      <genreform source="aat" identifier="http://vocab.getty.edu/aat/300028633">
+        <part>sound recordings</part>
+      </genreform>
+      <geogname source="naf">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85001522">Afghanistan -- History -- Soviet occupation, 1979-1989</part>
+      </geogname>
+      <geogname source="naf">
+        <part source="naf" identifier="http://id.loc.gov/authorities/names/n80126312">Soviet Union</part>
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85045182">Ethnic relations</part>
+      </geogname>
+      <geogname source="naf">
+        <part source="naf" identifier="http://id.loc.gov/authorities/names/n91129869">Uzbekistan</part>
+      </geogname>
+      <occupation source="lcsh">
+        <part source="lcsh" identifier="http://id.loc.gov/authorities/subjects/sh85028378">College teachers</part>
+        <part source="naf" identifier="http://id.loc.gov/authorities/names/n78095330">United States</part>
+      </occupation>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
