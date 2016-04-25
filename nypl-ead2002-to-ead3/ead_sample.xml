@@ -215,15 +215,21 @@
         <part source="naf" identifier="http://id.loc.gov/authorities/names/n78095330">United States</part>
       </occupation>
     </controlaccess>
-    <dsc type="combined">
+    <dsc dsctype="combined">
       <c01 level="series">
         <did>
           <unittitle>Series I. Afghanistan files</unittitle>
-          <unitdate type="inclusive" normal="1977/1993">1977-1993</unitdate>
-          <unitid type="local_mss">112720</unitid>
-          <physdesc>
-            <extent>1 box</extent>
-          </physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1977">1977</fromdate>
+              <todate standarddate="1993">1993</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112720</unitid>
+          <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+            <quantity>1</quantity>
+            <unittype>box</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>The Afghanistan files do not focus on a particular ethnic group. Rather, they are a small collection of disparate materials about, and from, that country. The files consist of manuscripts in Arabic and Cyrillic script, correspondence related to their provenance, transcripts of an interview with author Faizullah Aimaq on Kabul radio, and collected printed matter on Afghanistan.</p>
@@ -235,56 +241,79 @@
         <c02 level="file">
           <did>
             <unittitle>Arabic manuscripts and related correspondence</unittitle>
-            <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate>
-            <unitid type="local_mss">112721</unitid>
-            <container type="box">1</container>
-            <container type="folder">1</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1980">1980</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112721</unitid>
+            <container localtype="box">1</container>
+            <container localtype="folder">1</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Manuscripts and notes</unittitle>
-            <unitid type="local_mss">112723</unitid>
-            <container type="box">1</container>
-            <container type="folder">2</container>
+            <unitid localtype="local_mss">112723</unitid>
+            <container localtype="box">1</container>
+            <container localtype="folder">2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Printed matter and written summaries of articles</unittitle>
-            <unitdate type="inclusive" normal="1978/1988">1978-1988</unitdate>
-            <unitid type="local_mss">112724</unitid>
-            <container type="box">1</container>
-            <container type="folder">3</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1978">1978</fromdate>
+                <todate standarddate="1988">1988</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112724</unitid>
+            <container localtype="box">1</container>
+            <container localtype="folder">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Newspaper <title>Zeray</title></unittitle>
-            <unitdate normal="1981">1981</unitdate>
-            <unitid type="local_mss">112725</unitid>
-            <container type="box">1</container>
-            <container type="folder">4</container>
+            <unittitle>Newspaper <title><part>Zeray</part></title></unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1981">1981</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112725</unitid>
+            <container localtype="box">1</container>
+            <container localtype="folder">4</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Newspaper clippings</unittitle>
-            <unitdate type="inclusive" normal="1977/1993">1977-1993</unitdate>
-            <unitid type="local_mss">112726</unitid>
-            <container type="box">1</container>
-            <container type="folder">5-7</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1977">1977</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112726</unitid>
+            <container localtype="box">1</container>
+            <container localtype="folder">5-7</container>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
           <unittitle>Series II. Crimean Tatar files</unittitle>
-          <unitdate type="inclusive" normal="1944/1994">1944-1994</unitdate>
-          <unitid type="local_mss">112727</unitid>
-          <physdesc>
-            <extent>4 boxes</extent>
-          </physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1944">1944</fromdate>
+              <todate standarddate="1994">1994</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112727</unitid>
+          <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+            <quantity>4</quantity>
+            <unittype>boxes</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>The Crimean Tatar files focus on members of this ethnic group's 1944 deportation under Stalin's order to Central Asia, and their efforts, beginning in the 1960s, to obtain the right of return. Allworth's support for Crimean Tatar activism is documented in this collection of materials, as are his efforts to record deportees' personal experiences. Among the items present are correspondence and photographs; manuscripts, autobiographies and diaries; a recorded oral history; Allworth's own research and writings; and papers from the Ismail Gaspirali Fund at Columbia University.</p>
@@ -297,246 +326,322 @@
         <c02 level="file">
           <did>
             <unittitle>Correspondence</unittitle>
-            <unitdate type="inclusive" normal="1963/1994">1963-1994</unitdate>
-            <unitid type="local_mss">112728</unitid>
-            <container type="box">2</container>
-            <container type="folder">1-2</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1994">1994</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112728</unitid>
+            <container localtype="box">2</container>
+            <container localtype="folder">1-2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Writings and conferences</unittitle>
-            <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>
-            <unitid type="local_mss">112729</unitid>
-            <container type="box">2</container>
-            <container type="folder">3</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1984">1984</fromdate>
+                <todate standarddate="1990">1990</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112729</unitid>
+            <container localtype="box">2</container>
+            <container localtype="folder">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Ismail Gaspirali Fund and lecture</unittitle>
-            <unitdate normal="1984">1984 Sept</unitdate>
-            <unitid type="local_mss">112730</unitid>
-            <container type="box">2</container>
-            <container type="folder">4</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1984-09">1984 Sept</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112730</unitid>
+            <container localtype="box">2</container>
+            <container localtype="folder">4</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Manuscript of the Tashkent Trial and other documents</unittitle>
-            <unitdate normal="1969">ca. 1969</unitdate>
-            <unitid type="local_mss">112731</unitid>
-            <container type="box">2</container>
-            <container type="folder">5-7</container>
+            <unitdatestructured unitdatetype="inclusive" certainty="circa">
+              <datesingle standarddate="1969">ca. 1969</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112731</unitid>
+            <container localtype="box">2</container>
+            <container localtype="folder">5-7</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Biographical scrapbook of Eskender Ganeevich Umerov</unittitle>
-            <unitid type="local_mss">112732</unitid>
-            <container type="box">3</container>
-            <container type="volume">1</container>
+            <unitid localtype="local_mss">112732</unitid>
+            <container localtype="box">3</container>
+            <container localtype="volume">1</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Reshat Djemilev materials</unittitle>
-            <unitid type="local_mss">112733</unitid>
+            <unitid localtype="local_mss">112733</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>Reflections</title>
+                <title><part>Reflections</part></title>
               </unittitle>
-              <unitdate normal="1977">1977</unitdate>
-              <unitid type="local_mss">112734</unitid>
-              <container type="box">3</container>
-              <container type="folder">1-2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1977">1977</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112734</unitid>
+              <container localtype="box">3</container>
+              <container localtype="folder">1-2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>Short Analysis of Events During the Moscow Summer</title>
+                <title><part>Short Analysis of Events During the Moscow Summer</part></title>
               </unittitle>
-              <unitdate normal="1987">1987</unitdate>
-              <unitid type="local_mss">112735</unitid>
-              <container type="box">3</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1987">1987</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112735</unitid>
+              <container localtype="box">3</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Miscellaneous documents and photographs</unittitle>
-              <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
-              <unitid type="local_mss">112736</unitid>
-              <container type="box">3</container>
-              <container type="folder">4-5</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1987">1987</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112736</unitid>
+              <container localtype="box">3</container>
+              <container localtype="folder">4-5</container>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Notebooks 1-2</unittitle>
-            <unitid type="local_mss">112737</unitid>
-            <container type="box">3</container>
-            <container type="folder">6</container>
+            <unitid localtype="local_mss">112737</unitid>
+            <container localtype="box">3</container>
+            <container localtype="folder">6</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Notebooks 3-8</unittitle>
-            <unitid type="local_mss">112738</unitid>
-            <container type="box">4</container>
-            <container type="folder">1-3</container>
+            <unitid localtype="local_mss">112738</unitid>
+            <container localtype="box">4</container>
+            <container localtype="folder">1-3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Notebook 9</unittitle>
-            <unitid type="local_mss">112739</unitid>
-            <container type="box">4</container>
-            <container type="volume">2</container>
+            <unitid localtype="local_mss">112739</unitid>
+            <container localtype="box">4</container>
+            <container localtype="volume">2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Newsletter <title>Avdet</title></unittitle>
-            <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate>
-            <unitid type="local_mss">112740</unitid>
-            <container type="box">5</container>
-            <container type="folder">1</container>
+            <unittitle>Newsletter <title><part>Avdet</part></title></unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1990">1990</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112740</unitid>
+            <container localtype="box">5</container>
+            <container localtype="folder">1</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Newspaper clippings</unittitle>
-            <unitdate type="inclusive" normal="1967/1993">1967-1993</unitdate>
-            <unitid type="local_mss">112741</unitid>
-            <container type="box">5</container>
-            <container type="folder">2</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1967">1967</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112741</unitid>
+            <container localtype="box">5</container>
+            <container localtype="folder">2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Articles and reports for research</unittitle>
-            <unitdate type="inclusive" normal="1944/1993">1944-1993</unitdate>
-            <unitid type="local_mss">112742</unitid>
-            <container type="box">5</container>
-            <container type="folder">3-5</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1944">1944</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112742</unitid>
+            <container localtype="box">5</container>
+            <container localtype="folder">3-5</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Maps, prints and photographs</unittitle>
-            <unitdate normal="1985">1985</unitdate>
-            <unitid type="local_mss">112743</unitid>
-            <container type="box">5</container>
-            <container type="folder">6</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1985">1985</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112743</unitid>
+            <container localtype="box">5</container>
+            <container localtype="folder">6</container>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
           <unittitle>Series III. Tajik files</unittitle>
-          <unitdate type="inclusive" normal="1967/1993">1967-1993</unitdate>
-          <unitid type="local_mss">112744</unitid>
-          <physdesc>
-            <extent>1.5 boxes</extent>
-          </physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1967">1967</fromdate>
+              <todate standarddate="1993">1993</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112744</unitid>
+          <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+            <quantity>1.5</quantity>
+            <unittype>boxes</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>The Tajik files consist of photocopies of writings by Mordekhay Bachaev, manuscripts of interviews with Bukharan Jews, and newspaper clippings and other miscellaneous printed matter.</p>
-          <p>The manuscript memoir by Mordekhay Bachaev, also known as 'Muhib,' consists of photocopies of handwritten pages in Tajik, written in Cyrillic, covering his life from 1920 to 1939. Also included with his writings is a Tajik-language publication, entitled <title>Ghazaliet</title>, written in Hebrew and Cyrillic scripts.</p>
+          <p>The manuscript memoir by Mordekhay Bachaev, also known as 'Muhib,' consists of photocopies of handwritten pages in Tajik, written in Cyrillic, covering his life from 1920 to 1939. Also included with his writings is a Tajik-language publication, entitled <title><part>Ghazaliet</part></title>, written in Hebrew and Cyrillic scripts.</p>
           <p>The documents related to Bukharan Jews, which were originally arranged with the Tajik materials, consist of Hebrew manuscripts of interviews about the Jewish community in Bukhara prior to and following Soviet rule, paired with English-language summaries of these interviews.</p>
           <p>The miscellaneous printed matter pertains to the resurgence of a Muslim identity in the city of Dushanbe following the fall of the Soviet Union, and miscellaneous printed matter related to Bukharan Jews.</p>
           <p>In English, Hebrew, Russian and Tajik.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>M. Bachaev <title>Vospominaniya</title></unittitle>
-            <unitid type="local_mss">112745</unitid>
+            <unittitle>M. Bachaev <title><part>Vospominaniya</part></title></unittitle>
+            <unitid localtype="local_mss">112745</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>Table of Contents</unittitle>
-              <unitdate normal="1970">ca. 1970</unitdate>
-              <unitid type="local_mss">112746</unitid>
-              <container type="box">6</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive" certainty="circa">
+                <datesingle standarddate="1970">ca. 1970</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112746</unitid>
+              <container localtype="box">6</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Manuscript on 1920-1935</unittitle>
-              <unitdate normal="1970">ca. 1970</unitdate>
-              <unitid type="local_mss">112747</unitid>
-              <container type="box">6</container>
-              <container type="folder">2-7</container>
+              <unitdatestructured unitdatetype="inclusive" certainty="circa">
+                <datesingle standarddate="1970">ca. 1970</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112747</unitid>
+              <container localtype="box">6</container>
+              <container localtype="folder">2-7</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Manuscript on 1922-1923</unittitle>
-              <unitdate normal="1970">ca. 1970</unitdate>
-              <unitid type="local_mss">112748</unitid>
-              <container type="box">10</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive" certainty="circa">
+                <datesingle standarddate="1970">ca. 1970</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112748</unitid>
+              <container localtype="box">10</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Manuscript on 1936-1939</unittitle>
-              <unitdate normal="1970">ca. 1970</unitdate>
-              <unitid type="local_mss">112749</unitid>
-              <container type="box">7</container>
-              <container type="folder">1-4</container>
+              <unitdatestructured unitdatetype="inclusive" certainty="circa">
+                <datesingle standarddate="1970">ca. 1970</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112749</unitid>
+              <container localtype="box">7</container>
+              <container localtype="folder">1-4</container>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle><title>Gazaliet</title> (in Cyrillic and Hebrew scripts)</unittitle>
-            <unitdate normal="1978">1978</unitdate>
-            <unitid type="local_mss">112750</unitid>
-            <container type="box">7</container>
-            <container type="folder">5</container>
+            <unittitle><title><part>Gazaliet</part></title> (in Cyrillic and Hebrew scripts)</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1978">1978</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112750</unitid>
+            <container localtype="box">7</container>
+            <container localtype="folder">5</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Interviews with Bukharan Jews (in Hebrew)</unittitle>
-            <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
-            <unitid type="local_mss">112751</unitid>
-            <container type="box">7</container>
-            <container type="folder">6-7</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1967">1967</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112751</unitid>
+            <container localtype="box">7</container>
+            <container localtype="folder">6-7</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Miscellany related to Bukharan Jews</unittitle>
-            <unitdate normal="1974/1987">1974, 1987</unitdate>
-            <unitid type="local_mss">112752</unitid>
-            <container type="box">7</container>
-            <container type="folder">8</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <dateset>
+                <datesingle standarddate="1974">1974</datesingle>
+                <datesingle standarddate="1987">1987</datesingle>
+              </dateset>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112752</unitid>
+            <container localtype="box">7</container>
+            <container localtype="folder">8</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Newspaper clippings</unittitle>
-            <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate>
-            <unitid type="local_mss">112753</unitid>
-            <container type="box">7</container>
-            <container type="folder">9</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1988">1988</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112753</unitid>
+            <container localtype="box">7</container>
+            <container localtype="folder">9</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Miscellaneous printed matter</unittitle>
-            <unitdate normal="1983/1992">1983, 1992</unitdate>
-            <unitid type="local_mss">112754</unitid>
-            <container type="box">7</container>
-            <container type="folder">10</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <dateset>
+                <datesingle standarddate="1983">1983</datesingle>
+                <datesingle standarddate="1992">1992</datesingle>
+              </dateset>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112754</unitid>
+            <container localtype="box">7</container>
+            <container localtype="folder">10</container>
           </did>
         </c02>
       </c01>
