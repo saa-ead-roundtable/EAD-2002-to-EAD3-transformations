@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xmlns="http://ead3.archivists.org/schema/undeprecated/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
   <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" relatedencoding="marc" scriptencoding="iso15924">
     <recordid instanceurl="http://archives.nypl.org/mss/3621.xml">mss3621.xml</recordid>
     <representation linkrole="text/html" href="http://archives.nypl.org/mss/3621"/>
@@ -648,576 +648,717 @@
       <c01 level="series">
         <did>
           <unittitle>Series IV. Uzbek and Supreme Soviet project research files</unittitle>
-          <unitdate type="inclusive" normal="1970/2000">1970-2000</unitdate>
-          <unitid type="local_mss">112755</unitid>
-          <physdesc>11 computer files<extent>5 boxes; 679 Kilobytes</extent></physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1970">1970</fromdate>
+              <todate standarddate="2000">2000</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112755</unitid>
+          <physdescset parallel="true" coverage="part">
+            <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+              <quantity>11</quantity>
+              <unittype>computer files</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>679</quantity>
+              <unittype>kilobytes</unittype>
+            </physdescstructured>
+          </physdescset>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>boxes</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>Allworth's materials related to Uzbeks and Uzbekistan stem from his project analyzing ethnic minority participation in the Supreme Soviet. The project was alternately referred to in his notes as the "Uzbek Intelligentsia Project."</p>
           <p>The project analyzed Uzbek influence in the USSR through an examination of Uzbek members of the Supreme Soviet, compared with those in the Uzbek Soviet. Materials consist of selected "data sheets" on each member, statistical reports labeled "cross-tabulations" and "frequencies," project management materials, and other miscellany.</p>
           <p>The "cross-tabulations" look at factors such as education, rural vs. urban origin, gender, locality (oblast, krai, etc.), and former employment. Also included are comparisons of Uzbek members with Azerbaijanis and Tajiks, and comparisons across gender, by birth year, committee, and doctorate vs. candidate degrees.</p>
-          <p>Also present in this series are essays, drafts, research notes, and professional correspondence related to Allworth’s translation work and research on Uzbek literature and history, which focuses heavily on the writer and theorist Abdalrauf Fitrat. The Fitrat texts included in the collection are <title>Bidil</title>, <title>Qiyamät</title>, <title>Satan’s Mutiny Against the Lord</title>, and <title>The Judgment Day</title>. Some of the translation work was funded by an NEH grant, and includes Allworth’s progress reports on the project.</p>
-          <p>There is also an index to the Turki journal, <title>Ayina</title>, which was published from 1913 to 1915 and edited by Mahmud Khoja Behbudiy. This chronological index was compiled by Allworth and his graduate assistants, and contains extensive annotations.</p>
+          <p>Also present in this series are essays, drafts, research notes, and professional correspondence related to Allworth’s translation work and research on Uzbek literature and history, which focuses heavily on the writer and theorist Abdalrauf Fitrat. The Fitrat texts included in the collection are <title><part>Bidil</part></title>, <title><part>Qiyamät</part></title>, <title><part>Satan’s Mutiny Against the Lord</part></title>, and <title><part>The Judgment Day</part></title>. Some of the translation work was funded by an NEH grant, and includes Allworth’s progress reports on the project.</p>
+          <p>There is also an index to the Turki journal, <title><part>Ayina</part></title>, which was published from 1913 to 1915 and edited by Mahmud Khoja Behbudiy. This chronological index was compiled by Allworth and his graduate assistants, and contains extensive annotations.</p>
           <p>In English, Uzbek, French, Tajik, and Turkish. The Uzbek materials are mostly printed in Cyrillic script, with some texts also in Arabic script.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <unittitle>Project management materials</unittitle>
-            <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
-            <unitid type="local_mss">112756</unitid>
-            <container type="box">8</container>
-            <container type="folder">1</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1975">1975</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112756</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">1</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Key to codes for data sheets, projects 1 and 2</unittitle>
-            <unitdate normal="1975">ca. 1975</unitdate>
-            <unitid type="local_mss">112757</unitid>
-            <container type="box">8</container>
-            <container type="folder">2</container>
+            <unitdatestructured certainty="circa">
+              <datesingle standarddate="1975">ca. 1975</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112757</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Inventory of tables</unittitle>
-            <unitdate normal="1978">ca. 1978</unitdate>
-            <unitid type="local_mss">112758</unitid>
-            <container type="box">8</container>
-            <container type="folder">3</container>
+            <unitdatestructured certainty="circa">
+              <datesingle standarddate="1978">ca. 1978</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112758</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Preliminary variable and value lists</unittitle>
-            <unitdate normal="1975">ca. 1975</unitdate>
-            <unitid type="local_mss">112759</unitid>
-            <container type="box">8</container>
-            <container type="folder">4</container>
+            <unitdatestructured certainty="circa">
+              <datesingle standarddate="1975">ca. 1975</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112759</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">4</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Deputies of the Supreme Soviet, 8th Assembly, letter A</unittitle>
-            <unitdate normal="1970">1970</unitdate>
-            <unitid type="local_mss">112760</unitid>
-            <container type="box">8</container>
-            <container type="folder">5</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112760</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">5</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Data sheets: Non-Uzbek delegates from Uzbekistan</unittitle>
-            <unitdate normal="1974">1974</unitdate>
-            <unitid type="local_mss">112761</unitid>
-            <container type="box">8</container>
-            <container type="folder">6-7</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1974">1974</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112761</unitid>
+            <container localtype="box">8</container>
+            <container localtype="folder">6-7</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Data sheets: letter A</unittitle>
-            <unitid type="local_mss">112762</unitid>
-            <container type="box">9</container>
-            <container type="folder">1</container>
+            <unitid localtype="local_mss">112762</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">1</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Uzbek intelligentsia project management</unittitle>
-            <unitid type="local_mss">112763</unitid>
-            <container type="box">9</container>
-            <container type="folder">2</container>
+            <unitid localtype="local_mss">112763</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">2</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Uzbek consumer goods production statistics, by oblast, 1940-1970</unittitle>
-            <unitdate normal="1978">ca. 1978</unitdate>
-            <unitid type="local_mss">112764</unitid>
-            <container type="box">9</container>
-            <container type="folder">3</container>
+            <unitdatestructured certainty="circa">
+              <datesingle standarddate="1978">ca. 1978</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112764</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Azerbaijani SSR elections report</unittitle>
-            <unitdate normal="1990">1990</unitdate>
-            <unitid type="local_mss">112765</unitid>
-            <container type="box">9</container>
-            <container type="folder">4</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1990">1990</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112765</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">4</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Uzbek intelligentsia project, cross-tabulations</unittitle>
-            <unitid type="local_mss">112766</unitid>
+            <unitid localtype="local_mss">112766</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>General #1-12b</unittitle>
-              <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
-              <unitid type="local_mss">112767</unitid>
-              <container type="box">10</container>
-              <container type="folder">2-5</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1977">1977</fromdate>
+                  <todate standarddate="1978">1978</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112767</unitid>
+              <container localtype="box">10</container>
+              <container localtype="folder">2-5</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbek vs. Azerbaijani #C1</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">112768</unitid>
-              <container type="box">11</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112768</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>General #C2</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">112769</unitid>
-              <container type="box">11</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112769</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbek vs. Azerbaijani #C3-C9</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">112770</unitid>
-              <container type="box">11</container>
-              <container type="folder">3-5</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112770</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">3-5</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Male vs. female #C10</unittitle>
-              <unitid type="local_mss">112771</unitid>
-              <container type="box">11</container>
-              <container type="folder">6</container>
+              <unitid localtype="local_mss">112771</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">6</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>By republic #C11</unittitle>
-              <unitid type="local_mss">112772</unitid>
-              <container type="box">11</container>
-              <container type="folder">7</container>
+              <unitid localtype="local_mss">112772</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">7</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>By committee #C12</unittitle>
-              <unitid type="local_mss">112773</unitid>
-              <container type="box">11</container>
-              <container type="folder">8</container>
+              <unitid localtype="local_mss">112773</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">8</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>By birth year and rural/urban #C13</unittitle>
-              <unitid type="local_mss">112774</unitid>
-              <container type="box">11</container>
-              <container type="folder">9</container>
+              <unitid localtype="local_mss">112774</unitid>
+              <container localtype="box">11</container>
+              <container localtype="folder">9</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>By oblast</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">112775</unitid>
-              <container type="box">12</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112775</unitid>
+              <container localtype="box">12</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>'Uzbek 50 (SS)'</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">112776</unitid>
-              <container type="box">12</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112776</unitid>
+              <container localtype="box">12</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbeks vs. Tajiks</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112777</unitid>
-              <container type="box">12</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112777</unitid>
+              <container localtype="box">12</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Nationality, by employer type</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112778</unitid>
-              <container type="box">12</container>
-              <container type="folder">4</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112778</unitid>
+              <container localtype="box">12</container>
+              <container localtype="folder">4</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Doctorate degrees, Uzbeks vs. other Central Asians</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112779</unitid>
-              <container type="box">12</container>
-              <container type="folder">5</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112779</unitid>
+              <container localtype="box">12</container>
+              <container localtype="folder">5</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Candidate and doctorate degrees, all nationalities</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112780</unitid>
-              <container type="box">13</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112780</unitid>
+              <container localtype="box">13</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbek intelligentsia project, Frequencies</unittitle>
-              <unitid type="local_mss">112781</unitid>
+              <unitid localtype="local_mss">112781</unitid>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>General #1,3 and unnumbered</unittitle>
-              <unitdate normal="1977">1977</unitdate>
-              <unitid type="local_mss">112782</unitid>
-              <container type="box">14</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1977">1977</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112782</unitid>
+              <container localtype="box">14</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>General</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112783</unitid>
-              <container type="box">14</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112783</unitid>
+              <container localtype="box">14</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Crosstabulations and frequencies</unittitle>
-              <unitdate normal="1980">1980</unitdate>
-              <unitid type="local_mss">112784</unitid>
-              <container type="box">14</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112784</unitid>
+              <container localtype="box">14</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Other statistical analysis</unittitle>
-              <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate>
-              <unitid type="local_mss">112785</unitid>
-              <container type="box">14</container>
-              <container type="folder">4</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">112785</unitid>
+              <container localtype="box">14</container>
+              <container localtype="folder">4</container>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Fitrat Research and Translations</unittitle>
-            <unitid type="local_mss">2051134</unitid>
+            <unitid localtype="local_mss">2051134</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>Annotated Bibliography, Footnotes, and Preface</unittitle>
-              <unitdate type="inclusive" normal="1995/2000">1995-2000</unitdate>
-              <unitid type="local_mss">2051271</unitid>
-              <unitid type="local_mss_er">er.2</unitid>
-              <physdesc>
-                <extent>292.4 Kilobytes (3 computer files)</extent>
-              </physdesc>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="2000">2000</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051271</unitid>
+              <unitid localtype="local_mss_er">er.2</unitid>
+              <physdescset parallel="true" coverage="whole">
+                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                  <quantity>292.4</quantity>
+                  <unittype>kilobytes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                  <quantity>3</quantity>
+                  <unittype>computer files</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Article Drafts</unittitle>
-              <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
-              <unitid type="local_mss">2051135</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">1</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1984">1984</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051135</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Article Drafts and Notes</unittitle>
-              <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>
-              <unitid type="local_mss">2051136</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1992">1992</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051136</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Article Drafts</unittitle>
-              <unitdate normal="1996">1996</unitdate>
-              <unitid type="local_mss">2051137</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1996">1996</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051137</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Article Drafts - <title>Eurasian Studies Yearbook</title></unittitle>
-              <unitdate type="inclusive" normal="1992/1996">1992-1996</unitdate>
-              <unitid type="local_mss">2051138</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">4</container>
+              <unittitle>Article Drafts - <title><part>Eurasian Studies Yearbook</part></title></unittitle>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1992">1992</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051138</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">4</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Draft Translations and Correspondence</unittitle>
-              <unitdate normal="1978">1978</unitdate>
-              <unitid type="local_mss">2051139</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">5</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051139</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">5</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Monograph - <title>Qiyamät</title> and <title>Satan’s Mutiny</title></unittitle>
-              <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate>
-              <unitid type="local_mss">2051140</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">6</container>
+              <unittitle>Monograph - <title><part>Qiyamät</part></title> and <title><part>Satan’s Mutiny</part></title></unittitle>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1994">1994</fromdate>
+                  <todate standarddate="1998">1998</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051140</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">6</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>NEH Grant Reports and Translation Drafts</unittitle>
-              <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
-              <unitid type="local_mss">2051141</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">7</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1990">1990</fromdate>
+                  <todate standarddate="1991">1991</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051141</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">7</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Notes and Research</unittitle>
-              <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate>
-              <unitid type="local_mss">2051142</unitid>
-              <unitid type="local_barcode">33433116987565</unitid>
-              <container type="box">19</container>
-              <container type="folder">8</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051142</unitid>
+              <container containerid="33433116987565" localtype="box">19</container>
+              <container localtype="folder">8</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Notes from and about Fitrat</unittitle>
-              <unitid type="local_mss">2051144</unitid>
-              <unitid type="local_barcode">33433116987573</unitid>
-              <container type="box">20</container>
-              <container type="folder">1</container>
+              <unitid localtype="local_mss">2051144</unitid>
+              <container containerid="33433116987573" localtype="box">20</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Notes, Research, and Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate>
-              <unitid type="local_mss">2051145</unitid>
-              <unitid type="local_barcode">33433116987573</unitid>
-              <container type="box">20</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1994">1994</fromdate>
+                  <todate standarddate="1998">1998</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051145</unitid>
+              <container containerid="33433116987573" localtype="box">20</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Research Materials</unittitle>
-              <unitdate normal="1991">1991</unitdate>
-              <unitid type="local_mss">2051146</unitid>
-              <unitid type="local_barcode">33433116987573</unitid>
-              <container type="box">20</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1991">1991</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051146</unitid>
+              <container containerid="33433116987573" localtype="box">20</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>Bidil</title>
+                <title><part>Bidil</part></title>
               </unittitle>
-              <unitid type="local_mss">2051213</unitid>
+              <unitid localtype="local_mss">2051213</unitid>
             </did>
             <c04 level="file">
               <did>
                 <unittitle>Notes</unittitle>
-                <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>
-                <unitid type="local_mss">2051214</unitid>
-                <unitid type="local_barcode">33433116987573</unitid>
-                <container type="box">20</container>
-                <container type="folder">4</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <daterange>
+                    <fromdate standarddate="1994">1994</fromdate>
+                    <todate standarddate="1997">1997</todate>
+                  </daterange>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051214</unitid>
+                <container containerid="33433116987573" localtype="box">20</container>
+                <container localtype="folder">4</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes and Correspondence</unittitle>
-                <unitdate type="inclusive" normal="1993/1996">1993-1996</unitdate>
-                <unitid type="local_mss">2051216</unitid>
-                <unitid type="local_barcode">33433116987573</unitid>
-                <container type="box">20</container>
-                <container type="folder">5</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <daterange>
+                    <fromdate standarddate="1993">1993</fromdate>
+                    <todate standarddate="1996">1996</todate>
+                  </daterange>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051216</unitid>
+                <container containerid="33433116987573" localtype="box">20</container>
+                <container localtype="folder">5</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Research and Notes</unittitle>
-                <unitid type="local_mss">2051217</unitid>
-                <unitid type="local_barcode">33433116987573</unitid>
-                <container type="box">20</container>
-                <container type="folder">6</container>
+                <unitid localtype="local_mss">2051217</unitid>
+                <container containerid="33433116987573" localtype="box">20</container>
+                <container localtype="folder">6</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Rough Drafts</unittitle>
-                <unitdate normal="1993">1993</unitdate>
-                <unitid type="local_mss">2051218</unitid>
-                <unitid type="local_barcode">33433116987573</unitid>
-                <container type="box">20</container>
-                <container type="folder">7</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <datesingle standarddate="1993">1993</datesingle>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051218</unitid>
+                <container containerid="33433116987573" localtype="box">20</container>
+                <container localtype="folder">7</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Drafts</unittitle>
-                <unitid type="local_mss">2051219</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">1</container>
+                <unitid localtype="local_mss">2051219</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">1</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes</unittitle>
-                <unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate>
-                <unitid type="local_mss">2051220</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">2</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <daterange>
+                    <fromdate standarddate="1993">1993</fromdate>
+                    <todate standarddate="1998">1998</todate>
+                  </daterange>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051220</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">2</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes and Correspondence</unittitle>
-                <unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate>
-                <unitid type="local_mss">2051221</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">3</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <daterange>
+                    <fromdate standarddate="1993">1993</fromdate>
+                    <todate standarddate="1998">1998</todate>
+                  </daterange>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051221</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">3</container>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>The Judgment Day</title>
+                <title><part>The Judgment Day</part></title>
               </unittitle>
-              <unitid type="local_mss">2051222</unitid>
+              <unitid localtype="local_mss">2051222</unitid>
             </did>
             <c04 level="file">
               <did>
                 <unittitle>Draft Translation and Notes</unittitle>
-                <unitid type="local_mss">2051223</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">4</container>
+                <unitid localtype="local_mss">2051223</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">4</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Annotations</unittitle>
-                <unitid type="local_mss">2051263</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">5</container>
+                <unitid localtype="local_mss">2051263</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">5</container>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>Qiyamät</title>
+                <title><part>Qiyamät</part></title>
               </unittitle>
-              <unitid type="local_mss">2051264</unitid>
+              <unitid localtype="local_mss">2051264</unitid>
             </did>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes and Correspondence</unittitle>
-                <unitdate normal="1992">1992</unitdate>
-                <unitid type="local_mss">2051265</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">6</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <datesingle standarddate="1992">1992</datesingle>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051265</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">6</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes</unittitle>
-                <unitid type="local_mss">2051266</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">7</container>
+                <unitid localtype="local_mss">2051266</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">7</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes</unittitle>
-                <unitdate normal="1989">1989</unitdate>
-                <unitid type="local_mss">2051267</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">8</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <datesingle standarddate="1989">1989</datesingle>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051267</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">8</container>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>
-                <title>Satan’s Mutiny Against the Lord</title>
+                <title><part>Satan’s Mutiny Against the Lord</part></title>
               </unittitle>
-              <unitid type="local_mss">2051182</unitid>
+              <unitid localtype="local_mss">2051182</unitid>
             </did>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes and Annotations</unittitle>
-                <unitdate normal="1992">1992</unitdate>
-                <unitid type="local_mss">2051269</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">9</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <datesingle standarddate="1992">1992</datesingle>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051269</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">9</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translation Notes</unittitle>
-                <unitdate normal="1991">1991</unitdate>
-                <unitid type="local_mss">2051270</unitid>
-                <unitid type="local_barcode">33433116987581</unitid>
-                <container type="box">21</container>
-                <container type="folder">10</container>
+                <unitdatestructured unitdatetype="inclusive">
+                  <datesingle standarddate="1991">1991</datesingle>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051270</unitid>
+                <container containerid="33433116987581" localtype="box">21</container>
+                <container localtype="folder">10</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Translations and Drafts</unittitle>
-                <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate>
-                <unitid type="local_mss">2051275</unitid>
-                <unitid type="local_mss_er">er.3</unitid>
-                <physdesc>
-                  <extent>287.6 Kilobytes (7 computer files)</extent>
-                </physdesc>
+                <unitdatestructured unitdatetype="inclusive">
+                  <daterange>
+                    <fromdate standarddate="1990">1990</fromdate>
+                    <todate standarddate="1995">1995</todate>
+                  </daterange>
+                </unitdatestructured>
+                <unitid localtype="local_mss">2051275</unitid>
+                <unitid localtype="local_mss_er">er.3</unitid>
+                <physdescset parallel="true" coverage="part">
+                  <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                    <quantity>7</quantity>
+                    <unittype>computer files</unittype>
+                  </physdescstructured>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                    <quantity>287.6</quantity>
+                    <unittype>kilobytes</unittype>
+                  </physdescstructured>
+                </physdescset>
               </did>
             </c04>
           </c03>
@@ -1225,171 +1366,195 @@
         <c02 level="file">
           <did>
             <unittitle>Uzbek Research Files</unittitle>
-            <unitid type="local_mss">2050937</unitid>
+            <unitid localtype="local_mss">2050937</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>Ahmad Na’Im Nustratullhbek Interview</unittitle>
-              <unitdate normal="1999">1999</unitdate>
-              <unitid type="local_mss">2051208</unitid>
-              <unitid type="local_mss_er">er.1</unitid>
-              <physdesc>
-                <extent>98.96 Kilobytes (1 computer file)</extent>
-              </physdesc>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1999">1999</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051208</unitid>
+              <unitid localtype="local_mss_er">er.1</unitid>
+              <physdescset parallel="true" coverage="part">
+                <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                  <quantity>1</quantity>
+                  <unittype>computer files</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                  <quantity>98.96</quantity>
+                  <unittype>kilobytes</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle><title>Ayina</title> Index</unittitle>
-              <unitid type="local_mss">2050938</unitid>
-              <unitid type="local_barcode">33433116987532</unitid>
-              <container type="box">16</container>
+              <unittitle><title><part>Ayina</part></title> Index</unittitle>
+              <unitid localtype="local_mss">2050938</unitid>
+              <container containerid="33433116987532" localtype="box">16</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle><title>Central Asian Survey</title> Journal Translation</unittitle>
-              <unitdate normal="1982">1982</unitdate>
-              <unitid type="local_mss">2050943</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">1</container>
+              <unittitle><title><part>Central Asian Survey</part></title> Journal Translation</unittitle>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1982">1982</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050943</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Correspondence and Notes</unittitle>
-              <unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate>
-              <unitid type="local_mss">2050944</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="1998">1998</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050944</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Janos Eckman Materials</unittitle>
-              <unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate>
-              <unitid type="local_mss">2050945</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1971">1971</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050945</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Khudayberdiyewa, Halima - Notes and Reserach</unittitle>
-              <unitid type="local_mss">2050946</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">4</container>
+              <unitid localtype="local_mss">2050946</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">4</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Notes and Research Materials</unittitle>
-              <unitid type="local_mss">2050947</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">5</container>
+              <unitid localtype="local_mss">2050947</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">5</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Özbek - English vocabulary notebook vol. I</unittitle>
-              <unitdate normal="1956">1956</unitdate>
-              <unitid type="local_mss">2050948</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">6</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1956">1956</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050948</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">6</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Özbek - English vocabulary notebook vol. II</unittitle>
-              <unitdate normal="1956">1956</unitdate>
-              <unitid type="local_mss">2050950</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">7</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1956">1956</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050950</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">7</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Özbek - English vocabulary notebook vol. III</unittitle>
-              <unitdate normal="1956">1956</unitdate>
-              <unitid type="local_mss">2050951</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">8</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1956">1956</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050951</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">8</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Published Articles</unittitle>
-              <unitdate normal="1982">1982</unitdate>
-              <unitid type="local_mss">2050952</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">9</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1982">1982</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050952</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">9</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Translation Reserach</unittitle>
-              <unitdate normal="1998">1998</unitdate>
-              <unitid type="local_mss">2050953</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">10</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1998">1998</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2050953</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">10</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Turkestan Research</unittitle>
-              <unitid type="local_mss">2050954</unitid>
-              <unitid type="local_barcode">33433116987540</unitid>
-              <container type="box">17</container>
-              <container type="folder">11</container>
+              <unitid localtype="local_mss">2050954</unitid>
+              <container containerid="33433116987540" localtype="box">17</container>
+              <container localtype="folder">11</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Turkic Islamic Translations</unittitle>
-              <unitid type="local_mss">2051110</unitid>
-              <unitid type="local_barcode">33433116987557</unitid>
-              <container type="box">18</container>
-              <container type="folder">1</container>
+              <unitid localtype="local_mss">2051110</unitid>
+              <container containerid="33433116987557" localtype="box">18</container>
+              <container localtype="folder">1</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbek Language Research</unittitle>
-              <unitdate normal="1997">1997</unitdate>
-              <unitid type="local_mss">2051111</unitid>
-              <unitid type="local_barcode">33433116987557</unitid>
-              <container type="box">18</container>
-              <container type="folder">2</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1997">1997</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051111</unitid>
+              <container containerid="33433116987557" localtype="box">18</container>
+              <container localtype="folder">2</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbekistan Newspapers and Notes</unittitle>
-              <unitdate normal="1989">1989</unitdate>
-              <unitid type="local_mss">2051112</unitid>
-              <unitid type="local_barcode">33433116987557</unitid>
-              <container type="box">18</container>
-              <container type="folder">3</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1989">1989</datesingle>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051112</unitid>
+              <container containerid="33433116987557" localtype="box">18</container>
+              <container localtype="folder">3</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Uzbekistan Newspapers</unittitle>
-              <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
-              <unitid type="local_mss">2051113</unitid>
-              <unitid type="local_barcode">33433116987557</unitid>
-              <container type="box">18</container>
-              <container type="folder">4</container>
+              <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1990">1990</fromdate>
+                  <todate standarddate="1991">1991</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitid localtype="local_mss">2051113</unitid>
+              <container containerid="33433116987557" localtype="box">18</container>
+              <container localtype="folder">4</container>
             </did>
           </c03>
         </c02>
@@ -1397,11 +1562,17 @@
       <c01 level="series">
         <did>
           <unittitle>Series V. Miscellany</unittitle>
-          <unitdate type="inclusive" normal="1969/1989">1969-1989</unitdate>
-          <unitid type="local_mss">112786</unitid>
-          <physdesc>
-            <extent>0.5 boxes</extent>
-          </physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1969">1969</fromdate>
+              <todate standarddate="1989">1989</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112786</unitid>
+          <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+            <quantity>0.5</quantity>
+            <unittype>boxes</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>The miscellany consists of research notes gathered to create bibliographies on Central Asian populations, flyers for conferences on nationality problems in the USSR, and pins related to Crimean Tatar repatriation and an Azerbaijani fraternal society.</p>
@@ -1410,38 +1581,56 @@
         <c02 level="file">
           <did>
             <unittitle>Correspondence and materials for bibliography</unittitle>
-            <unitdate normal="1969/1976">1969, 1976</unitdate>
-            <unitid type="local_mss">112787</unitid>
-            <container type="box">9</container>
-            <container type="folder">5</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <dateset>
+                <datesingle standarddate="1969">1969</datesingle>
+                <datesingle standarddate="1976">1976</datesingle>
+              </dateset>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112787</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">5</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Programs on Soviet nationality problems</unittitle>
-            <unitdate normal="1971/1989">1971, 1973, 1977, 1989</unitdate>
-            <unitid type="local_mss">112788</unitid>
-            <container type="box">9</container>
-            <container type="folder">6</container>
+            <unitdatestructured unitdatetype="inclusive">
+              <dateset>
+                <datesingle standarddate="1971">1971</datesingle>
+                <datesingle standarddate="1973">1973</datesingle>
+                <datesingle standarddate="1977">1977</datesingle>
+                <datesingle standarddate="1989">1989</datesingle>
+              </dateset>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112788</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">6</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Fraternal society pins</unittitle>
-            <unitid type="local_mss">112789</unitid>
-            <container type="box">9</container>
-            <container type="folder">7</container>
+            <unitid localtype="local_mss">112789</unitid>
+            <container localtype="box">9</container>
+            <container localtype="folder">7</container>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
           <unittitle>Series VI. Sound recordings</unittitle>
-          <unitdate normal="1976/1989">1976, 1989</unitdate>
-          <unitid type="local_mss">112790</unitid>
-          <physdesc>
-            <extent>19 audio files</extent>
-          </physdesc>
+          <unitdatestructured unitdatetype="inclusive">
+            <dateset>
+              <datesingle standarddate="1976">1976</datesingle>
+              <datesingle standarddate="1989">1989</datesingle>
+            </dateset>
+          </unitdatestructured>
+          <unitid localtype="local_mss">112790</unitid>
+          <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+            <quantity>19</quantity>
+            <unittype>audio files</unittype>
+          </physdescstructured>
         </did>
         <scopecontent>
           <p>Consists of sound recordings of an interview and radio programming by Uzbek writer Faizullah Aimaq, aired on Kabul Radio in August 1976; a recording of folk songs sung by the Uighur People's Republic Group; and a series of interviews with Crimean Tatar activist Reshat Djemilev, taped by Edward Allworth in April 1989.</p>
@@ -1450,8 +1639,10 @@
         <c02 level="file">
           <did>
             <unittitle>Kabul Radio: Local language programs</unittitle>
-            <unitdate normal="1976">1976 Aug 28</unitdate>
-            <unitid type="local_mss">112791</unitid>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1976-08-28">1976 Aug 28</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112791</unitid>
           </did>
           <scopecontent>
             <p>Kabul radio, August 28, 1976. Local language programs: Uzbek/Turkmen. Produced by Faizullah Aimaq (recorded by Robert Barrett) Begins with music, followed by interspersed readings of poetry and prose.</p>
@@ -1459,25 +1650,53 @@
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2019919</unitid>
-              <unitid type="local_mss_av">208365_f01.mp3</unitid>
-              <physdesc>audio file (00:31:29)</physdesc>
+              <unitid localtype="local_mss">2019919</unitid>
+              <unitid localtype="local_mss_av">208365_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>29</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2019920</unitid>
-              <unitid type="local_mss_av">208365_f02.mp3</unitid>
-              <physdesc>audio file (00:29:48)</physdesc>
+              <unitid localtype="local_mss">2019920</unitid>
+              <unitid localtype="local_mss_av">208365_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>29</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>48</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Kabul Radio: Interview with Faizullah Aimaq and Robert Barrett</unittitle>
-            <unitdate normal="1976">1976 Aug 25</unitdate>
-            <unitid type="local_mss">112792</unitid>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1976-08-25">1976 Aug 25</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112792</unitid>
           </did>
           <scopecontent>
             <p>Kabul radio, August 25, 1976 Interview with Uzbek writer Faizullah Aimaq and Robert Barrett, and readings by Aimaq. Also includes a tour of Khudayar Khan museum in Kokand, Uzbekistan.</p>
@@ -1485,25 +1704,53 @@
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020022</unitid>
-              <unitid type="local_mss_av">208366_f01.mp3</unitid>
-              <physdesc>audio file (00:31:57)</physdesc>
+              <unitid localtype="local_mss">2020022</unitid>
+              <unitid localtype="local_mss_av">208366_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>57</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020023</unitid>
-              <unitid type="local_mss_av">208366_f02.mp3</unitid>
-              <physdesc>audio file (00:31:17)</physdesc>
+              <unitid localtype="local_mss">2020023</unitid>
+              <unitid localtype="local_mss_av">208366_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>17</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Uighur People's Republic Dance Ensemble performance</unittitle>
-            <unitdate normal="1976">1976 Aug 25</unitdate>
-            <unitid type="local_mss">112793</unitid>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1976-08-25">1976 Aug 25</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112793</unitid>
           </did>
           <scopecontent>
             <p>Performance of the Uighur People's Republic Dance Ensemble at the Kabul Nandare Theater in Kabul, Afghanistan. August 25, 1976. Includes theatrical dialogue, music, folk songs, and a brief narration of the audience members' appearance.</p>
@@ -1511,25 +1758,53 @@
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020024</unitid>
-              <unitid type="local_mss_av">208367_f01.mp3</unitid>
-              <physdesc>audio file (00:31:10)</physdesc>
+              <unitid localtype="local_mss">2020024</unitid>
+              <unitid localtype="local_mss_av">208367_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>10</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020025</unitid>
-              <unitid type="local_mss_av">208367_f02.mp3</unitid>
-              <physdesc>audio file (00:31:08)</physdesc>
+              <unitid localtype="local_mss">2020025</unitid>
+              <unitid localtype="local_mss_av">208367_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>08</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Oral History of Reshat Dzhemilev</unittitle>
-            <unitdate normal="1989">1989 Aug 20</unitdate>
-            <unitid type="local_mss">112794</unitid>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1989-08-20">1989 Aug 20</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112794</unitid>
           </did>
           <scopecontent>
             <p>Oral history recording by Reshat Dzhemilev, a Crimean Tatar dissident from Simferopol, who was deported to Uzbekistan with his family in 1944. He discusses his family history, the 1941 German occupation of Simferopol, his family's deportation, and life in Uzbekistan. Dzhemilev also recalls his life as an activist for a Crimean Tatar homeland, his run-ins with the KGB, trials and imprisonment by the Soviet government. In Russian.</p>
@@ -1537,130 +1812,303 @@
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020026</unitid>
-              <unitid type="local_mss_av">208368_f01.mp3</unitid>
-              <physdesc>audio file (00:47:15)</physdesc>
+              <unitid localtype="local_mss">2020026</unitid>
+              <unitid localtype="local_mss_av">208368_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>47</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>15</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020027</unitid>
-              <unitid type="local_mss_av">208368_f02.mp3</unitid>
-              <physdesc>audio file (00:47:16)</physdesc>
+              <unitid localtype="local_mss">2020027</unitid>
+              <unitid localtype="local_mss_av">208368_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>47</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>16</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Oral History of Reshat Dzhemilev</unittitle>
-            <unitdate normal="1989">1989 Aug 21</unitdate>
-            <unitid type="local_mss">112795</unitid>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1989-08-21">1989 Aug 21</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">112795</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020028</unitid>
-              <unitid type="local_mss_av">208369_f01.mp3</unitid>
-              <physdesc>audio file (00:47:15)</physdesc>
+              <unitid localtype="local_mss">2020028</unitid>
+              <unitid localtype="local_mss_av">208369_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>47</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>15</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020029</unitid>
-              <unitid type="local_mss_av">208369_f02.mp3</unitid>
-              <physdesc>audio file (00:47:16)</physdesc>
+              <unitid localtype="local_mss">2020029</unitid>
+              <unitid localtype="local_mss_av">208369_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>47</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>16</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020030</unitid>
-              <unitid type="local_mss_av">208170_f01.mp3</unitid>
-              <physdesc>audio file (00:26:14)</physdesc>
+              <unitid localtype="local_mss">2020030</unitid>
+              <unitid localtype="local_mss_av">208170_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>26</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>14</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020031</unitid>
-              <unitid type="local_mss_av">208370_f02.mp3</unitid>
-              <physdesc>audio file (00:47:16)</physdesc>
+              <unitid localtype="local_mss">2020031</unitid>
+              <unitid localtype="local_mss_av">208370_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>47</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>16</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Oral History of Reshat Dzhemilev</unittitle>
-            <unitid type="local_mss">112796</unitid>
+            <unitid localtype="local_mss">112796</unitid>
           </did>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020036</unitid>
-              <unitid type="local_mss_av">208371_f01.mp3</unitid>
-              <physdesc>audio file (00:31:31)</physdesc>
+              <unitid localtype="local_mss">2020036</unitid>
+              <unitid localtype="local_mss_av">208371_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020037</unitid>
-              <unitid type="local_mss_av">208371_f02.mp3</unitid>
-              <physdesc>audio file (00:31:30)</physdesc>
+              <unitid localtype="local_mss">2020037</unitid>
+              <unitid localtype="local_mss_av">208371_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>30</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020038</unitid>
-              <unitid type="local_mss_av">208372_f01.mp3</unitid>
-              <physdesc>audio file (00:31:30)</physdesc>
+              <unitid localtype="local_mss">2020038</unitid>
+              <unitid localtype="local_mss_av">208372_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>30</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020039</unitid>
-              <unitid type="local_mss_av">208372_f02.mp3</unitid>
-              <physdesc>audio file (00:31:31)</physdesc>
+              <unitid localtype="local_mss">2020039</unitid>
+              <unitid localtype="local_mss_av">208372_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020040</unitid>
-              <unitid type="local_mss_av">208373_f01.mp3</unitid>
-              <physdesc>audio file (00:31:27)</physdesc>
+              <unitid localtype="local_mss">2020040</unitid>
+              <unitid localtype="local_mss_av">208373_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>27</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side B</unittitle>
-              <unitid type="local_mss">2020041</unitid>
-              <unitid type="local_mss_av">208373_f02.mp3</unitid>
-              <physdesc>audio file (00:31:28)</physdesc>
+              <unitid localtype="local_mss">2020041</unitid>
+              <unitid localtype="local_mss_av">208373_f02.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>31</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>28</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Side A</unittitle>
-              <unitid type="local_mss">2020042</unitid>
-              <unitid type="local_mss_av">208374_f01.mp3</unitid>
-              <physdesc>audio file (00:18:57)</physdesc>
+              <unitid localtype="local_mss">2020042</unitid>
+              <unitid localtype="local_mss_av">208374_f01.mp3</unitid>
+              <physdescstructured coverage="whole" physdescstructuredtype="carrier">
+                <quantity>1</quantity>
+                <unittype>audio file</unittype>
+              </physdescstructured>
+              <physdescset parallel="false" coverage="whole">
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>18</quantity>
+                  <unittype>minutes</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="otherphysdescstructuredtype" otherphysdescstructuredtype="duration">
+                  <quantity>57</quantity>
+                  <unittype>seconds</unittype>
+                </physdescstructured>
+              </physdescset>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Interview with Zeki Velidi Togan</unittitle>
-            <unitdate normal="1967">1967</unitdate>
-            <unitid type="local_mss">2051068</unitid>
-            <unitid type="local_mss_av">origsr.225874</unitid>
-            <note>
-              <p>sound recording (unavailable)</p>
-            </note>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <unitid localtype="local_mss">2051068</unitid>
+            <unitid localtype="local_mss_av">origsr.225874</unitid>
+            <didnote>
+              sound recording (unavailable)
+            </didnote>
           </did>
         </c02>
       </c01>
